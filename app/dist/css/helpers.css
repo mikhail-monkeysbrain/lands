@@ -1,0 +1,48 @@
+.font__tac {
+  text-align: center;
+}
+.font__taj {
+  text-align: justify;
+}
+.font__tal {
+  text-align: left;
+}
+.font__tar {
+  text-align: right;
+}
+.font__bold {
+  font-weight: 600;
+}
+.font__ttu {
+  text-transform: uppercase;
+}
+.font__ttn {
+  text-transform: none;
+}
+.size__full {
+  width: 100%;
+}
+.size__semi {
+  width: 50%;
+}
+.size__small {
+  width: 33.33%;
+}
+.size__quad {
+  width: 25%;
+}
+.size__large {
+  width: 66.66%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fn {
+  float: none;
+}
+.clear {
+  clear: both;
+}
