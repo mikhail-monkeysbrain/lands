@@ -1,0 +1,112 @@
+.srv nav {
+  margin-top: 4em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.srv nav a {
+  width: 25%;
+  color: #000;
+  font-family: 'RalewayRegular';
+  font-size: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .srv nav a {
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+  }
+}
+.srv .nav__header,
+.srv .article__header {
+  font-family: 'RalewayBold';
+  text-transform: uppercase;
+  font-size: 1.05rem;
+}
+.srv h2 {
+  color: #000;
+  font-family: 'RalewayBold';
+}
+.srv h3 {
+  text-align: center;
+  color: #f00;
+  font-family: 'RalewayBold';
+}
+h5 {
+  font-size: 1.15rem;
+}
+.wrapper__medium {
+  width: 95%;
+  max-width: 960px;
+  margin: 1em auto 2em;
+}
+.big__arrow {
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.big__arrow::before {
+  content: '';
+  display: block;
+  width: 45%;
+  height: 1px;
+  background: #000;
+  -webkit-transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+          transform: rotate(4deg);
+  margin-right: -2px;
+}
+.big__arrow::after {
+  content: '';
+  display: block;
+  width: 45%;
+  height: 1px;
+  background: #000;
+  -webkit-transform: rotate(-4deg);
+      -ms-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  margin-left: -2px;
+}
+.internet-sales {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.internet-sales article {
+  width: 30%;
+  margin: 1em auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+@media screen and (max-width: 800px) {
+  .internet-sales article {
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+  }
+}

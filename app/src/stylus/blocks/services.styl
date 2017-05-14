@@ -1,0 +1,73 @@
+.srv
+	nav
+		margin-top 4em
+		display flex
+		justify-content space-between
+		align-items center
+		flex-wrap wrap
+		a
+			width 25%
+			color #000
+			font-family 'RalewayRegular'
+			font-size 1rem
+			@media screen and (max-width: 800px)
+				width 100%
+				text-align center
+				margin 1em 0
+				
+	.nav,
+	.article
+		&__header
+			font-family 'RalewayBold'
+			text-transform uppercase
+			font-size 1.05rem
+	h2
+		color #000
+		font-family 'RalewayBold'
+	h3
+		text-align center
+		color red
+		font-family 'RalewayBold'
+h5
+	font-size 1.15rem
+.wrapper__medium
+	width 95%
+	max-width 960px
+	margin 1em auto 2em
+.big__arrow
+	text-align center
+	display flex
+	justify-content center
+	margin-top 4em
+	margin-bottom 4em
+	&::before
+		content ''
+		display block
+		width 45%
+		height 1px
+		background #000
+		transform rotate(4deg)
+		margin-right -2px
+	&::after
+		content ''
+		display block
+		width 45%
+		height 1px
+		background #000
+		transform rotate(-4deg)
+		margin-left -2px
+.internet-sales
+	display flex
+	justify-content flex-start
+	align-items flex-start
+	flex-wrap wrap
+	article
+		width 30%
+		margin 1em auto
+		flex-shrink 0
+		@media screen and (max-width: 800px)
+			width 100%
+			text-align center
+			margin 1em 0
+			
+		
