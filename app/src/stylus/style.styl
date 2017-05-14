@@ -52,7 +52,7 @@ img
 	
 button
 	cursor pointer
-	padding 10px 20px
+	padding 10px 0
 	background-color red
 	color #fff
 	font-size 20px
@@ -76,6 +76,10 @@ button
 		width 66.66%
 		margin 0 auto
 		min-width 30%
+	&__meduium
+		width 50%
+		margin 0 auto
+		min-width 50%
 	&__white
 		border 2px solid red
 		background transparent
@@ -84,12 +88,6 @@ button
 			color #fff
 			border 2px solid red
 			background red
-
-.wrapper
-	width 95%
-	max-width 1120px
-	margin 0 auto
-
 input
 	&::placeholder
 		transition animation
@@ -104,185 +102,10 @@ section
 
 /* start blocks*/
 
-#top
-	background url('../img/section--top.jpg') center no-repeat
-	background-size cover
-	padding-top 10rem
-	padding-bottom 2rem
-	button
-		margin-top -3rem
-span
-	&.btrx
-		width 20rem
-		height 3.5rem
-		background url(../img/btrx.png) center no-repeat
-		background-size cover
-		display inline-block
-		margin-bottom -.7rem
 
-.what-is
-	padding 2rem 0
-	display flex
-	justify-content space-between
-	align-items baseline
-	flex-wrap wrap
-	&--item
-		flex-shrink 0
-		padding 1rem 0
-		width 29%
-		display flex
-		flex-direction column
-		justify-content flex-end
-		align-items center
-		span
-			background red
-			width 2.5rem
-			height 2.5rem
-			text-align center
-			line-height 2.5rem
-			border-radius 50%
-			margin-top -1.25rem
-			font-family "RalewaySemiBold"
-			font-size 1.3rem
-			color #fff
-		p
-			text-align center
-.arrow
-	width 2rem
-	margin 0 .5rem
+@import "blocks/bitrix__24.styl" 
+@import "blocks/analytic.styl"  
+@import "blocks/index.styl" 
 
-.result
-	padding-bottom 0
-	margin-bottom -2rem
-	&--item
-		background url('../img/bg-2.jpg') center no-repeat
-		background-size cover
-		margin-bottom 5rem
-		margin-top 5rem
-		&:nth-child(odd)
-			background transparent
-		.wrapper
-			display flex
-		article
-			text-align center
-		img
-			position absolute
-			left 0
-			right 0
-			margin -5rem auto
-			height 20rem
-			width auto
-.left,
-.right
-	position relative
-	width 50%
-	padding 1rem
-	slex-shrink 0
-.ok
-	width 3rem
-	height 3.05rem
-	background: red
-	border-radius 50%
-	margin 0 auto
-	background url('../img/check.svg')
-
-.projects
-	background url('../img/package-bg.jpg') center no-repeat
-	background-size cover
-	h3
-		color #fff
-	&--wrapper
-		@extend .wrapper
-		display flex
-		justify-content space-between
-	&--item
-		background #fff
-		box-shadow 0 0 0 1rem rgba(255, 255, 255, .5)
-		padding 2rem 0
-		width 30%
-		text-align center
-		margin 2rem 0
-	h4
-		text-transform uppercase
-		font-family "GothamProBold"
-		font-size 1.5rem
-	a
-		color #708a9a
-		text-decoration underline
-	.price
-		text-transform uppercase
-		font-family "GothamProBold"
-		font-size 2rem
-		color #33425b
-.line
-	width 60%
-	height 3px
-	margin-top .5rem
-	margin 0 auto
-	background #708a9a
-
-.partners
-	.wrapper
-		padding 2rem 0
-		display flex
-		justify-content space-between
-		img
-			width auto
-	&--slider
-		background url('../img/partner-bg.jpg') center no-repeat
-		background-size cover
-		padding 2rem 0
-		margin-bottom 2rem
-		article
-			background #fff
-			padding 2rem 1rem
-			text-align center
-.avatar
-	width 4rem
-	height 4rem
-	margin 0 auto 1rem
-	position relative
-	&::before
-		content ''
-		display inline-block
-		position absolute
-		width 9rem
-		height 2px
-		background #708a9a
-		position absolute
-		right calc(-100% - 6rem)
-		top 50%
-	&::after
-		content ''
-		display inline-block
-		position absolute
-		width 9rem
-		height 2px
-		background #708a9a
-		position absolute
-		left calc(-100% - 6rem)
-		top 50%
-
-.form
-	background linear-gradient(0deg, rgba(255,255,255,0) 0%, #e1edf2 100%)
-	padding-bottom 0
-	margin-bottom -1rem
-	section
-		width 80%
-		margin 0 auto
-		display flex
-		text-align left
-form
-	display flex
-	flex-direction column
-	input 
-		border 2px solid
-		padding .5rem .7rem
-		margin .5rem 0
-		&[type="submit"]
-			background #a32127
-			&:hover
-				box-shadow 0 0 10px -1px black
-				color #fff
 
 /*end blocks*/

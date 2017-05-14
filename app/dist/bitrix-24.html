@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7, user-scalable=no"/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="http://allfont.ru/allfont.css?fonts=agency-fb-bold" type="text/css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="css/fonts.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="vendors/vendors.js"></script>
+</head>
+<body><img src="img/header.jpg"/>
+  <div class="clear"></div>
+  <section id="top__b24">
+    <div class="wrapper">
+      <h1>Интеграция CRM <span class="btrx"></span><br/>	в Ваш бизнес </h1>
+      <h2>Автоматизируем бизнес-процессы и обеспечим рост<br/>	Вашей прибыли от 348% </h2>
+      <button class="fr">	Оставить заявку</button>
+      <div class="clear"></div>
+    </div>
+  </section>
+  <div class="clear"></div>
+  <section id="section-2">
+    <div class="wrapper">
+      <h3>Что такое внедрение CRM в Вашу компанию?</h3>
+      <div class="what-is">
+        <article class="what-is--item"><img src="img/integer-1.jpg" alt="step"/><span>1</span>
+          <p>
+             
+            	Заполнение брифа, составление<br/>	списка необходимых возможностей,<br/>	подбор тарифа.
+          </p>
+        </article>
+        <div class="arrow"><img src="img/next.svg" alt="next"/></div>
+        <article class="what-is--item"><img src="img/integer-2.jpg" alt="step"/><span>2</span>
+          <p>
+             
+            	Согласование коммерческого <br/>	предложения, подписание договора.
+          </p>
+        </article>
+        <div class="arrow"><img src="img/next.svg" alt="next"/></div>
+        <article class="what-is--item"><img src="img/integer-3.jpg" alt="step"/><span>3</span>
+          <p>
+             
+            	Согласование коммерческого <br/>	предложения, подписание договора.
+          </p>
+        </article>
+        <article class="what-is--item"><img src="img/integer-4.jpg" alt="step"/><span>4</span>
+          <p>
+             
+            	Заполнение брифа, составление<br/>	списка необходимых возможностей,<br/>	подбор тарифа.
+          </p>
+        </article>
+        <div class="arrow"><img src="img/next.svg" alt="next"/></div>
+        <article class="what-is--item"><img src="img/integer-5.jpg" alt="step"/><span>5</span>
+          <p>
+             
+            	Согласование коммерческого <br/>	предложения, подписание договора.
+          </p>
+        </article>
+        <div class="arrow"><img src="img/next.svg" alt="next"/></div>
+        <article class="what-is--item"><img src="img/integer-6.jpg" alt="step"/><span>6</span>
+          <p>
+             
+            	Согласование коммерческого <br/>	предложения, подписание договора.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <div class="clear"></div>
+  <section class="result">
+    <h3>В результате Вы сможете:</h3>
+    <section class="result--item">
+      <div class="wrapper">
+        <div class="left"><img src="img/section-2_1.png"/></div>
+        <div class="right">
+          <article>
+            <div class="ok"></div><br/>
+            <h4>Собрать все данные воедино</h4><br/>
+            <p>
+               
+              	Клиентская база, история работы с клиентами,<br/>документация, переписка и записи разговоров – <br/>все в вашей CRM.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="result--item">
+      <div class="wrapper">
+        <div class="left">
+          <article>
+            <div class="ok"></div><br/>
+            <h4>Собрать все данные воедино</h4><br/>
+            <p>
+               
+              	Клиентская база, история работы с клиентами,<br/>документация, переписка и записи разговоров – <br/>все в вашей CRM.
+            </p>
+          </article>
+        </div>
+        <div class="right"><img src="img/section-2_2.png"/></div>
+      </div>
+    </section>
+    <section class="result--item">
+      <div class="wrapper">
+        <div class="left"><img src="img/section-2_3.png"/></div>
+        <div class="right">
+          <article>
+            <div class="ok"></div><br/>
+            <h4>Собрать все данные воедино</h4><br/>
+            <p>
+               
+              	Клиентская база, история работы с клиентами,<br/>документация, переписка и записи разговоров – <br/>все в вашей CRM.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="result--item">
+      <div class="wrapper">
+        <div class="left">
+          <article>
+            <div class="ok"></div><br/>
+            <h4>Собрать все данные воедино</h4><br/>
+            <p>
+               
+              	Клиентская база, история работы с клиентами,<br/>документация, переписка и записи разговоров – <br/>все в вашей CRM.
+            </p>
+          </article>
+        </div>
+        <div class="right"><img src="img/section-2_4.png"/></div>
+      </div>
+    </section>
+    <section class="result--item">
+      <div class="wrapper">
+        <div class="left"><img src="img/section-2_5.png"/></div>
+        <div class="right">
+          <article>
+            <div class="ok"></div><br/>
+            <h4>Собрать все данные воедино</h4><br/>
+            <p>
+               
+              	Клиентская база, история работы с клиентами,<br/>документация, переписка и записи разговоров – <br/>все в вашей CRM.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </section>
+  <div class="clear"></div>
+  <section class="projects">
+    <h3>Проекты внедрений</h3>
+    <div class="projects--wrapper">
+      <section class="projects--item">
+        <h4>базовый</h4>
+        <p>Настройка CRM: карточка клиента,<br/>статусы сделок, напоминания для<br/>менеджеров.</p><br/>
+        <div class="line"></div>
+        <p>
+           
+          	Настройка получения почты сотрудниками в CRM<br/>
+        </p><a href="#">А так же..</a>
+        <p class="price">	29 000 &#8381; (Р)</p><br/>
+        <button class="btn btn__radius btn__large btn__white">	Оставить заявку</button>
+      </section>
+      <section class="projects--item">
+        <h4>базовый</h4>
+        <p>Настройка CRM: карточка клиента,<br/>статусы сделок, напоминания для<br/>менеджеров.</p><br/>
+        <div class="line"></div>
+        <p>
+           
+          	Настройка получения почты сотрудниками в CRM<br/>
+        </p><a href="#">А так же..</a>
+        <p class="price">	29 000 &#8381; (Р)</p><br/>
+        <button class="btn btn__radius btn__large btn__white">	Оставить заявку</button>
+      </section>
+      <section class="projects--item">
+        <h4>базовый</h4>
+        <p>Настройка CRM: карточка клиента,<br/>статусы сделок, напоминания для<br/>менеджеров.</p><br/>
+        <div class="line"></div>
+        <p>
+           
+          	Настройка получения почты сотрудниками в CRM<br/>
+        </p><a href="#">А так же..</a>
+        <p class="price">	29 000 &#8381; (Р)</p><br/>
+        <button class="btn btn__radius btn__large btn__white">	Оставить заявку</button>
+      </section>
+    </div>
+  </section>
+  <div class="clear"></div>
+  <section class="partners">
+    <h3>Сертифицированные партнеры</h3>
+    <div class="wrapper"><a href="#"><img src="img/partner-1.jpg" alt=""/></a><a href="#"><img src="img/partner-2.jpg" alt=""/></a><a href="#"><img src="img/partner-3.jpg" alt=""/></a></div>
+    <div class="section partners--slider">
+      <h3>Ниже перечислены типичные проблемы со слов клиентов,<br/>	которые к нам обращаются:</h3>
+      <div class="wrapper">
+        <div class="owl-carousel slide-two">
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar1.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar2.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar3.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar4.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar1.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+          <div class="item">
+            <article>
+              <div class="avatar"><img src="img/avatar2.svg" alt=""/></div>
+              <p>Данные по клиентам разбросаны по разным системам<br/>	Хаос полнейший! Обращения клиентов разбросаны по всей компании.<br/>	Есть база Excel, 1С, заявки с сайта приходят на почту, звонки частично на мобильные телефоны.<br/>	Вы пробовали самостоятельно ставить разные CRM системы, но до конца не разобрались как в них работать.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Официальные партнеры:</h3>
+    <div class="wrapper"><a href="#"><img src="img/partner-off-1.jpg" alt=""/></a><a href="#"><img src="img/partner-off-2.jpg" alt=""/></a><a href="#"><img src="img/partner-off-3.jpg" alt=""/></a></div>
+  </section>
+  <div class="clear"></div>
+  <section class="form">
+    <h4>Все еще думаете зачем Вам это?<br/>	Закажите бесплатную консультацию!</h4>
+    <div class="wrapper">
+      <section>
+        <form action="" class="left">
+          <input type="text" placeholder="Ваше имя"/>
+          <input type="text" placeholder="E-mail"/>
+          <input type="submit" value="Заказать" class="btn"/>
+        </form>
+        <div class="right">
+          <p>	У нас Вы можете купить Битрикс 24 <br/>	«Команда» или «Компания» на год</p><br/>
+          <h4 class="font__tal">	со скидкой  20%.</h4>
+        </div>
+      </section>
+    </div>
+  </section>
+  <div class="clear"></div>
+  <footer><img src="img/footer.jpg" alt=""/></footer>
+  <script src="js/app.js"></script>
+  <div class="clear"></div>
+</body>

@@ -19,6 +19,12 @@
 .font__ttn {
   text-transform: none;
 }
+.font__tdu {
+  text-decoration: underline;
+}
+.font__tdn {
+  text-decoration: none;
+}
 .size__full {
   width: 100%;
 }

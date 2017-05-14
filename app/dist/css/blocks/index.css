@@ -1,0 +1,46 @@
+.wrapper {
+  width: 95%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+#index {
+  background: url("../img/top__index.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+#index .wrapper {
+  position: relative;
+}
+#index a {
+  margin-left: 2rem;
+  color: #fff;
+}
+#index img {
+  position: absolute;
+  width: auto !important;
+  max-width: 50%;
+  right: 0;
+  top: -10rem;
+  max-height: 30rem;
+}
+.increase__sales {
+  padding-top: 0;
+}
+.increase__sales__header {
+  background: linear-gradient(to bottom, #f1f7f9 0%, #d3e4eb 100%);
+  padding: 1em 0;
+  box-shadow: 0 0 5px 0px #808080;
+}
+.increase__sales__header .h {
+  font-family: "RalewayBold";
+  font-size: 30px;
+  font-size: 1.55rem;
+}
+.increase__sales__header .h3 {
+  color: #f00;
+}
+.increase__sales__rotate {
+  background: url("../img/index__rotate.jpg") center no-repeat;
+  background-size: 100%;
+}
