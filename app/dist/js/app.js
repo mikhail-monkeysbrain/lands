@@ -27,4 +27,6 @@ $(function () {
       }
     }
   });
+  //var width = $('.landing--masonry').width()
+  //$('.landing--masonry').height(width*2)
 })

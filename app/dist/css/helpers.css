@@ -1,54 +1,54 @@
 .font__tac {
-  text-align: center;
+  text-align: center !important;
 }
 .font__taj {
-  text-align: justify;
+  text-align: justify !important;
 }
 .font__tal {
-  text-align: left;
+  text-align: left !important;
 }
 .font__tar {
-  text-align: right;
+  text-align: right !important;
 }
 .font__bold {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 .font__ttu {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 .font__ttn {
-  text-transform: none;
+  text-transform: none !important;
 }
 .font__tdu {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .font__tdn {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .size__full {
-  width: 100%;
+  width: 100% !important;
 }
 .size__semi {
-  width: 50%;
+  width: 50% !important;
 }
 .size__small {
-  width: 33.33%;
+  width: 33.33% !important;
 }
 .size__quad {
-  width: 25%;
+  width: 25% !important;
 }
 .size__large {
-  width: 66.66%;
+  width: 66.66% !important;
 }
 .fl {
-  float: left;
+  float: left !important;
 }
 .fr {
-  float: right;
+  float: right !important;
 }
 .fn {
-  float: none;
+  float: none !important;
 }
 .clear {
-  clear: both;
+  clear: both !important;
 }
