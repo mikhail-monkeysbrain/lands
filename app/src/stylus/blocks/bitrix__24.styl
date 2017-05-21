@@ -1,3 +1,6 @@
+media(maxWidth)
+    @media screen and (max-width: maxWidth)
+        {block}
 .wrapper
 	width 95%
 	max-width 1120px
@@ -10,7 +13,9 @@
 	padding-bottom 2rem
 	button
 		margin-top -3rem
-		
+		+media(768px)
+			float none !important
+			margin-top 1em		
 #top__analytic
 	background url('../img/section--top__analytic.jpg') center no-repeat
 	background-size cover
@@ -33,14 +38,20 @@ span
 	justify-content space-between
 	align-items baseline
 	flex-wrap wrap
+	+media(1024px)
+		justify-content space-around
 	&--item
 		flex-shrink 0
 		padding 1rem 0
-		width 29%
+		width 28%
 		display flex
 		flex-direction column
 		justify-content flex-end
 		align-items center
+		+media(1024px)
+			width 40%
+		+media(480px)
+			width 80%
 		span
 			background red
 			width 2.5rem
@@ -50,13 +61,20 @@ span
 			border-radius 50%
 			margin-top -1.25rem
 			font-family "RalewaySemiBold"
-			font-size 1.3rem
+			font-size 16px
 			color #fff
+			+media(1024px)
+				width 5rem
+				height 5rem
+				line-height 5rem
+				font-size 18px
 		p
 			text-align center
 .arrow
 	width 2rem
 	margin 0 .5rem
+	+media(1024px)
+		display none
 
 .result
 	padding-bottom 0
@@ -66,8 +84,19 @@ span
 		background-size cover
 		margin-bottom 5rem
 		margin-top 5rem
+		+media(768px)
+			.left
+				display none
+			.right
+				width 100%
 		&:nth-child(odd)
 			background transparent
+			+media(768px)
+				.left
+					display block
+					width 100%
+				.right
+					display none
 		.wrapper
 			display flex
 		article
@@ -79,6 +108,8 @@ span
 			margin -5rem auto
 			height 20rem
 			width auto
+			+media(1024px)
+				margin -2em auto
 .left,
 .right
 	position relative
@@ -102,6 +133,8 @@ span
 		@extend .wrapper
 		display flex
 		justify-content space-between
+		+media(960px)
+			flex-wrap wrap
 	&--item
 		background #fff
 		box-shadow 0 0 0 .7rem rgba(255, 255, 255, .5)
@@ -109,17 +142,22 @@ span
 		width 30%
 		text-align center
 		margin 2rem 0
+		+media(960px)
+			width 55%
+			margin 2em auto
+		+media(480px)
+			width 95%
 	h4
 		text-transform uppercase
 		font-family "GothamProBold"
-		font-size 1.5rem
+		font-size 22px
 	a
 		color #708a9a
 		text-decoration underline
 .price
 	text-transform uppercase
 	font-family "GothamProBold"
-	font-size 2rem
+	font-size 32px
 	color #33425b
 .line
 	width 60%
@@ -133,8 +171,19 @@ span
 		padding 2rem 0
 		display flex
 		justify-content space-between
+		+media(480px)
+			flex-wrap wrap
+			a
+				width 60%
+				margin 0 auto
+				text-align center
 		img
 			width auto
+			+media(960px)
+				width 80%
+				margin 0 auto
+			+media(480px)
+				width auto
 	&--slider
 		background url('../img/partner-bg.jpg') center no-repeat
 		background-size cover
@@ -149,6 +198,9 @@ span
 	height 4rem
 	margin 0 auto 1rem
 	position relative
+	+media(768px)
+		width 10em
+		height 10em
 	&::before
 		content ''
 		display inline-block

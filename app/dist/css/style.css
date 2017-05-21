@@ -67,35 +67,31 @@ h1 {
   color: #fff;
   font-family: "RalewaySemiBold";
   font-size: 45px;
-  font-size: 2.45rem;
 }
 h2 {
   color: #fff;
   font-family: "RobotoMedium";
   font-size: 24px;
-  font-size: 1.25rem;
 }
 h3 {
   color: #2d3646;
   font-family: "RalewaySemiBold";
   font-size: 24px;
-  font-size: 1.25rem;
   text-align: center;
 }
 h4 {
   color: #cf2930;
   font-family: "RalewaySemiBold";
   font-size: 24px;
-  font-size: 1.25rem;
   text-align: center;
 }
 a {
   text-decoration: none;
+  font-size: 16px;
 }
 p {
   font-family: "RobotoRegular";
   font-size: 18px;
-  font-size: 0.95rem;
 }
 img {
   width: 100%;
@@ -107,11 +103,9 @@ button,
   background-color: #cf2930;
   color: #fff;
   font-size: 20px;
-  font-size: 1.05rem;
   border: 1px solid #cf2930;
   border-radius: 3px;
   min-width: 280px;
-  min-width: 14.5rem;
   transition: 0.3s ease all;
   outline: none;
 }
@@ -193,6 +187,12 @@ section {
 #top__b24 button {
   margin-top: -3rem;
 }
+@media screen and (max-width: 768px) {
+  #top__b24 button {
+    float: none !important;
+    margin-top: 1em;
+  }
+}
 #top__analytic {
   background: url("../img/section--top__analytic.jpg") center no-repeat;
   background-size: cover;
@@ -225,12 +225,19 @@ span.btrx {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
+@media screen and (max-width: 1024px) {
+  .what-is {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
 .what-is--item {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding: 1rem 0;
-  width: 29%;
+  width: 28%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -244,6 +251,16 @@ span.btrx {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1024px) {
+  .what-is--item {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .what-is--item {
+    width: 80%;
+  }
+}
 .what-is--item span {
   background: #cf2930;
   width: 2.5rem;
@@ -253,8 +270,16 @@ span.btrx {
   border-radius: 50%;
   margin-top: -1.25rem;
   font-family: "RalewaySemiBold";
-  font-size: 1.3rem;
+  font-size: 16px;
   color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .what-is--item span {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 18px;
+  }
 }
 .what-is--item p {
   text-align: center;
@@ -262,6 +287,11 @@ span.btrx {
 .arrow {
   width: 2rem;
   margin: 0 0.5rem;
+}
+@media screen and (max-width: 1024px) {
+  .arrow {
+    display: none;
+  }
 }
 .result {
   padding-bottom: 0;
@@ -273,8 +303,25 @@ span.btrx {
   margin-bottom: 5rem;
   margin-top: 5rem;
 }
+@media screen and (max-width: 768px) {
+  .result--item .left {
+    display: none;
+  }
+  .result--item .right {
+    width: 100%;
+  }
+}
 .result--item:nth-child(odd) {
   background: transparent;
+}
+@media screen and (max-width: 768px) {
+  .result--item:nth-child(odd) .left {
+    display: block;
+    width: 100%;
+  }
+  .result--item:nth-child(odd) .right {
+    display: none;
+  }
 }
 .result--item .wrapper {
   display: -webkit-flex;
@@ -291,6 +338,11 @@ span.btrx {
   margin: -5rem auto;
   height: 20rem;
   width: auto;
+}
+@media screen and (max-width: 1024px) {
+  .result--item img {
+    margin: -2em auto;
+  }
 }
 .left,
 .right {
@@ -322,6 +374,13 @@ span.btrx {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 960px) {
+  .projects--wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .projects--item {
   background: #fff;
   box-shadow: 0 0 0 0.7rem rgba(255,255,255,0.5);
@@ -330,10 +389,21 @@ span.btrx {
   text-align: center;
   margin: 2rem 0;
 }
+@media screen and (max-width: 960px) {
+  .projects--item {
+    width: 55%;
+    margin: 2em auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .projects--item {
+    width: 95%;
+  }
+}
 .projects h4 {
   text-transform: uppercase;
   font-family: "GothamProBold";
-  font-size: 1.5rem;
+  font-size: 22px;
 }
 .projects a {
   color: #708a9a;
@@ -342,7 +412,7 @@ span.btrx {
 .price {
   text-transform: uppercase;
   font-family: "GothamProBold";
-  font-size: 2rem;
+  font-size: 32px;
   color: #33425b;
 }
 .line {
@@ -361,8 +431,31 @@ span.btrx {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 480px) {
+  .partners .wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .partners .wrapper a {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 .partners .wrapper img {
   width: auto;
+}
+@media screen and (max-width: 960px) {
+  .partners .wrapper img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .partners .wrapper img {
+    width: auto;
+  }
 }
 .partners--slider {
   background: url("../img/partner-bg.jpg") center no-repeat;
@@ -380,6 +473,12 @@ span.btrx {
   height: 4rem;
   margin: 0 auto 1rem;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 10em;
+    height: 10em;
+  }
 }
 .avatar::before {
   content: '';
@@ -446,10 +545,21 @@ form input[type="submit"]:hover {
 #top__analytic button {
   margin-top: -3rem;
 }
+@media screen and (max-width: 960px) {
+  #top__analytic button {
+    float: none !important;
+    margin-top: 1em;
+  }
+}
 #section-2__analytic {
   background: url("../img/an_bg.jpg") top center no-repeat;
   background-size: 100%;
   padding-top: 3.5em;
+}
+@media screen and (max-width: 768px) {
+  #section-2__analytic {
+    background: #fff;
+  }
 }
 .parallelogram {
   width: 40rem;
@@ -471,6 +581,26 @@ form input[type="submit"]:hover {
   margin-bottom: 5px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   margin-left: -1rem;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram {
+    width: 100%;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    margin-left: 0 !important;
+    height: auto;
+    padding: 2em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .parallelogram:nth-child(3) {
   background: #e17a7e;
@@ -511,7 +641,16 @@ form input[type="submit"]:hover {
   text-align: right;
   text-transform: uppercase;
   font-family: 'RalewaySemiBold';
-  font-size: 1.1rem;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram p {
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+  }
 }
 .parallelogram .num {
   -webkit-transform: skew(-35deg);
@@ -522,6 +661,14 @@ form input[type="submit"]:hover {
   font-size: 3.5rem;
   font-family: 'Agency FB Bold';
   margin-left: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram .num {
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    font-size: 6em;
+  }
 }
 .service {
   margin-top: 2em;
@@ -535,18 +682,41 @@ form input[type="submit"]:hover {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+@media screen and (max-width: 768px) {
+  .service {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .service article {
   width: 32%;
   background: linear-gradient(53deg, #708a9a 0%, #e4ecf0 100%);
   padding: 0.7rem;
+}
+@media screen and (max-width: 768px) {
+  .service article {
+    width: 80%;
+    margin: 1em auto;
+  }
 }
 .service--item {
   background: #fff;
   text-align: center;
   padding: 0.8rem;
 }
+@media screen and (max-width: 768px) {
+  .service--item {
+    padding: 2.5em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .service--item button {
+    min-width: 100%;
+  }
+}
 .service--item h4 {
-  font-size: 1.15rem;
+  font-size: 19px;
   font-family: "RalewayBold";
 }
 .after-partners {
@@ -568,6 +738,13 @@ form input[type="submit"]:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .after-partners__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .after-partners article {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -582,10 +759,22 @@ form input[type="submit"]:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .after-partners article {
+    width: 80%;
+    margin: 1em auto;
+  }
+}
 .after-partners img {
   height: 5rem;
   border-radius: 50%;
   width: auto !important;
+}
+@media screen and (max-width: 768px) {
+  .after-partners img {
+    height: auto;
+    width: 60%;
+  }
 }
 .command .owl-carousel .owl-dot {
   background: #b1c4d0;
@@ -626,11 +815,21 @@ form input[type="submit"]:hover {
   width: calc(100% / 6 - 2rem);
   margin: 1rem;
 }
+@media screen and (max-width: 768px) {
+  .integer img {
+    width: calc(100% / 3 - 2rem);
+  }
+}
 #index {
   background: url("../img/top__index.jpg") center no-repeat;
   background-size: cover;
   padding-top: 10rem;
   padding-bottom: 2rem;
+}
+@media screen and (max-width: 960px) {
+  #index .size__semi {
+    width: 100% !important;
+  }
 }
 #index .wrapper {
   position: relative;
@@ -647,6 +846,11 @@ form input[type="submit"]:hover {
   top: -10rem;
   max-height: 30rem;
 }
+@media screen and (max-width: 960px) {
+  #index img {
+    display: none;
+  }
+}
 .increase__sales {
   padding-top: 0;
 }
@@ -658,7 +862,6 @@ form input[type="submit"]:hover {
 .increase__sales__header .h {
   font-family: "RalewayBold";
   font-size: 30px;
-  font-size: 1.55rem;
 }
 .increase__sales__header .h3 {
   color: #cf2930;
@@ -667,10 +870,18 @@ form input[type="submit"]:hover {
   background: url("../img/index__rotate.jpg") center no-repeat;
   background-size: 100%;
 }
+@media screen and (max-width: 1200px) {
+  .increase__sales__rotate {
+    background: #fff;
+  }
+}
 .wrapper__small {
   width: 95%;
   max-width: 880px;
   margin: 0 auto;
+}
+.sales img.icon {
+  width: auto !important;
 }
 .sales:first-child .icon {
   margin: 0 auto;
@@ -678,6 +889,11 @@ form input[type="submit"]:hover {
 .sales img {
   width: auto !important;
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .sales img {
+    width: 45% !important;
+  }
 }
 .sales article {
   display: -webkit-flex;
@@ -699,7 +915,6 @@ form input[type="submit"]:hover {
   color: #cf2930;
   font-family: 'RalewaySemiBold';
   font-size: 25px;
-  font-size: 1.3rem;
 }
 .landing {
   padding: 0;
@@ -708,6 +923,21 @@ form input[type="submit"]:hover {
   margin-top: 2rem;
   background: url("../img/landingbg.jpg") center no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 1300px) {
+  .landing__wrapper {
+    margin-bottom: 3em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .landing__wrapper {
+    margin-bottom: 7em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing__wrapper {
+    margin-bottom: 0;
+  }
 }
 .landing .wrapper {
   display: -webkit-flex;
@@ -719,9 +949,16 @@ form input[type="submit"]:hover {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+}
+@media screen and (max-width: 1024px) {
+  .landing .wrapper {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
 }
 .landing--masonry {
   width: auto;
@@ -730,6 +967,17 @@ form input[type="submit"]:hover {
           flex-grow: 1;
   position: relative;
   cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .landing--masonry {
+    width: 30%;
+    -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 1;
+        -ms-flex-negative: 1;
+            flex-shrink: 1;
+  }
 }
 .landing--masonry:nth-child(2n) .landing--masonry__overlay {
   top: 50%;
@@ -740,6 +988,7 @@ form input[type="submit"]:hover {
 .landing--masonry__overlay {
   position: absolute;
   width: 100%;
+  font-size: 16px;
   height: 50%;
   left: 0;
   top: 0;
@@ -757,15 +1006,35 @@ form input[type="submit"]:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .landing--masonry {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 480px) {
+  .landing--masonry {
+    width: 100%;
+  }
+}
 .rates {
   background: url("../img/rotate-2.jpg") center no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .rates {
+    background: #fff;
+  }
 }
 .rates h2 {
   color: #cf2930;
   font-family: 'RalewayBold';
   text-align: center;
   margin-top: -5em;
+}
+@media screen and (max-width: 768px) {
+  .rates h2 {
+    margin: 0;
+  }
 }
 .rates h4,
 .rates p {
@@ -777,6 +1046,11 @@ form input[type="submit"]:hover {
 }
 .rates .service--item {
   padding: 0.8rem 2rem;
+}
+@media screen and (max-width: 768px) {
+  .rates .service img {
+    display: none;
+  }
 }
 .rates .service img:nth-child(1) {
   position: absolute;
@@ -796,20 +1070,36 @@ form input[type="submit"]:hover {
   position: absolute;
   width: auto !important;
   left: 70%;
-  top: 32rem;
+  bottom: 250px;
   z-index: 0;
 }
 .rates .service img:nth-child(4) {
   position: absolute;
   width: auto !important;
-  left: 0%;
-  top: 45rem;
+  left: -5%;
+  bottom: 0;
   z-index: 3;
 }
 .rates .service article {
   margin: 1em 0;
   position: relative;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .rates .service article {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .form .right {
+    display: none;
+  }
+  .form .left {
+    width: 100%;
+  }
+  .form .left input {
+    font-size: 18px;
+  }
 }
 .form__transparent {
   background: transparent;
@@ -859,7 +1149,6 @@ form input[type="submit"]:hover {
   width: 25%;
   color: #000;
   font-family: 'RalewayRegular';
-  font-size: 1rem;
 }
 @media screen and (max-width: 800px) {
   .srv nav a {
@@ -872,7 +1161,7 @@ form input[type="submit"]:hover {
 .srv .article__header {
   font-family: 'RalewayBold';
   text-transform: uppercase;
-  font-size: 1.05rem;
+  font-size: 18px;
 }
 .srv h2 {
   color: #000;
@@ -882,9 +1171,6 @@ form input[type="submit"]:hover {
   text-align: center;
   color: #cf2930;
   font-family: 'RalewayBold';
-}
-h5 {
-  font-size: 1.15rem;
 }
 .wrapper__medium {
   width: 95%;

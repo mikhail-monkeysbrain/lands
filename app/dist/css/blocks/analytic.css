@@ -8,10 +8,21 @@
 #top__analytic button {
   margin-top: -3rem;
 }
+@media screen and (max-width: 960px) {
+  #top__analytic button {
+    float: none !important;
+    margin-top: 1em;
+  }
+}
 #section-2__analytic {
   background: url("../img/an_bg.jpg") top center no-repeat;
   background-size: 100%;
   padding-top: 3.5em;
+}
+@media screen and (max-width: 768px) {
+  #section-2__analytic {
+    background: #fff;
+  }
 }
 .parallelogram {
   width: 40rem;
@@ -33,6 +44,26 @@
   margin-bottom: 5px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   margin-left: -1rem;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram {
+    width: 100%;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    margin-left: 0 !important;
+    height: auto;
+    padding: 2em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .parallelogram:nth-child(3) {
   background: #e17a7e;
@@ -73,7 +104,16 @@
   text-align: right;
   text-transform: uppercase;
   font-family: 'RalewaySemiBold';
-  font-size: 1.1rem;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram p {
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+  }
 }
 .parallelogram .num {
   -webkit-transform: skew(-35deg);
@@ -84,6 +124,14 @@
   font-size: 3.5rem;
   font-family: 'Agency FB Bold';
   margin-left: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .parallelogram .num {
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    font-size: 6em;
+  }
 }
 .service {
   margin-top: 2em;
@@ -97,18 +145,41 @@
       -ms-flex-align: start;
           align-items: flex-start;
 }
+@media screen and (max-width: 768px) {
+  .service {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .service article {
   width: 32%;
   background: linear-gradient(53deg, #708a9a 0%, #e4ecf0 100%);
   padding: 0.7rem;
+}
+@media screen and (max-width: 768px) {
+  .service article {
+    width: 80%;
+    margin: 1em auto;
+  }
 }
 .service--item {
   background: #fff;
   text-align: center;
   padding: 0.8rem;
 }
+@media screen and (max-width: 768px) {
+  .service--item {
+    padding: 2.5em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .service--item button {
+    min-width: 100%;
+  }
+}
 .service--item h4 {
-  font-size: 1.15rem;
+  font-size: 19px;
   font-family: "RalewayBold";
 }
 .after-partners {
@@ -130,6 +201,13 @@
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .after-partners__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .after-partners article {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -144,10 +222,22 @@
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .after-partners article {
+    width: 80%;
+    margin: 1em auto;
+  }
+}
 .after-partners img {
   height: 5rem;
   border-radius: 50%;
   width: auto !important;
+}
+@media screen and (max-width: 768px) {
+  .after-partners img {
+    height: auto;
+    width: 60%;
+  }
 }
 .command .owl-carousel .owl-dot {
   background: #b1c4d0;
@@ -187,4 +277,9 @@
 .integer img {
   width: calc(100% / 6 - 2rem);
   margin: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .integer img {
+    width: calc(100% / 3 - 2rem);
+  }
 }

@@ -13,6 +13,12 @@
 #top__b24 button {
   margin-top: -3rem;
 }
+@media screen and (max-width: 768px) {
+  #top__b24 button {
+    float: none !important;
+    margin-top: 1em;
+  }
+}
 #top__analytic {
   background: url("../img/section--top__analytic.jpg") center no-repeat;
   background-size: cover;
@@ -45,12 +51,19 @@ span.btrx {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
+@media screen and (max-width: 1024px) {
+  .what-is {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
 .what-is--item {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding: 1rem 0;
-  width: 29%;
+  width: 28%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -64,6 +77,16 @@ span.btrx {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1024px) {
+  .what-is--item {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .what-is--item {
+    width: 80%;
+  }
+}
 .what-is--item span {
   background: #f00;
   width: 2.5rem;
@@ -73,8 +96,16 @@ span.btrx {
   border-radius: 50%;
   margin-top: -1.25rem;
   font-family: "RalewaySemiBold";
-  font-size: 1.3rem;
+  font-size: 16px;
   color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .what-is--item span {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 18px;
+  }
 }
 .what-is--item p {
   text-align: center;
@@ -82,6 +113,11 @@ span.btrx {
 .arrow {
   width: 2rem;
   margin: 0 0.5rem;
+}
+@media screen and (max-width: 1024px) {
+  .arrow {
+    display: none;
+  }
 }
 .result {
   padding-bottom: 0;
@@ -93,8 +129,25 @@ span.btrx {
   margin-bottom: 5rem;
   margin-top: 5rem;
 }
+@media screen and (max-width: 768px) {
+  .result--item .left {
+    display: none;
+  }
+  .result--item .right {
+    width: 100%;
+  }
+}
 .result--item:nth-child(odd) {
   background: transparent;
+}
+@media screen and (max-width: 768px) {
+  .result--item:nth-child(odd) .left {
+    display: block;
+    width: 100%;
+  }
+  .result--item:nth-child(odd) .right {
+    display: none;
+  }
 }
 .result--item .wrapper {
   display: -webkit-flex;
@@ -111,6 +164,11 @@ span.btrx {
   margin: -5rem auto;
   height: 20rem;
   width: auto;
+}
+@media screen and (max-width: 1024px) {
+  .result--item img {
+    margin: -2em auto;
+  }
 }
 .left,
 .right {
@@ -142,6 +200,13 @@ span.btrx {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 960px) {
+  .projects--wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
 .projects--item {
   background: #fff;
   box-shadow: 0 0 0 0.7rem rgba(255,255,255,0.5);
@@ -150,10 +215,21 @@ span.btrx {
   text-align: center;
   margin: 2rem 0;
 }
+@media screen and (max-width: 960px) {
+  .projects--item {
+    width: 55%;
+    margin: 2em auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .projects--item {
+    width: 95%;
+  }
+}
 .projects h4 {
   text-transform: uppercase;
   font-family: "GothamProBold";
-  font-size: 1.5rem;
+  font-size: 22px;
 }
 .projects a {
   color: #708a9a;
@@ -162,7 +238,7 @@ span.btrx {
 .price {
   text-transform: uppercase;
   font-family: "GothamProBold";
-  font-size: 2rem;
+  font-size: 32px;
   color: #33425b;
 }
 .line {
@@ -181,8 +257,31 @@ span.btrx {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 480px) {
+  .partners .wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .partners .wrapper a {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 .partners .wrapper img {
   width: auto;
+}
+@media screen and (max-width: 960px) {
+  .partners .wrapper img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .partners .wrapper img {
+    width: auto;
+  }
 }
 .partners--slider {
   background: url("../img/partner-bg.jpg") center no-repeat;
@@ -200,6 +299,12 @@ span.btrx {
   height: 4rem;
   margin: 0 auto 1rem;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 10em;
+    height: 10em;
+  }
 }
 .avatar::before {
   content: '';

@@ -1,5 +1,7 @@
 @import url(http://allfont.ru/allfont.css?fonts=agency-fb-bold)
-
+media(maxWidth)
+    @media screen and (max-width: maxWidth)
+        {block}
 #top__analytic
 	background url('../img/section--top__analytic.jpg') center no-repeat
 	background-size cover
@@ -7,12 +9,15 @@
 	padding-bottom 2rem
 	button
 		margin-top -3rem
-
+		+media(960px)
+			float none !important
+			margin-top 1em
 #section-2__analytic
 	background: url('../img/an_bg.jpg') top center no-repeat
 	background-size 100%
 	padding-top 3.5em
-
+	+media(768px)
+		background #fff
 .parallelogram
 	width 40rem
 	height 5.5rem
@@ -27,6 +32,17 @@
 	margin-bottom 5px
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, .5)
 	margin-left -1rem
+	+media(768px)
+		width 100%
+		-webkit-transform skew(0deg)
+		-moz-transform skew(0deg)
+		-o-transform skew(0deg)
+		margin-left 0 !important
+		height auto
+		padding 2em
+		display flex
+		justify-content center
+		align-items center
 	&:nth-child(3)
 		background #e17a7e
 		margin-left 3rem
@@ -56,7 +72,13 @@
 		text-align right
 		text-transform uppercase
 		font-family 'RalewaySemiBold'
-		font-size 1.1rem
+		font-size 18px
+		line-height: 1
+		margin 0
+		+media(768px)
+			-webkit-transform skew(0deg)
+			-moz-transform skew(0deg)
+			-o-transform skew(0deg)
 	.num
 		-webkit-transform skew(-35deg)
 		-moz-transform skew(-35deg)
@@ -66,21 +88,36 @@
 		font-size 3.5rem
 		font-family: 'Agency FB Bold'
 		margin-left 1rem
+		+media(768px)
+			-webkit-transform skew(0deg)
+			-moz-transform skew(0deg)
+			-o-transform skew(0deg)
+			font-size 6em
 .service
 	margin-top 2em
 	display flex
 	justify-content space-between
 	align-items flex-start
+	+media(768px)
+		flex-wrap wrap
 	article
 		width 32%
 		background linear-gradient(53deg, rgb(112,138,154) 0%, rgb(228,236,240) 100%)
 		padding .7rem
+		+media(768px)
+			width 80%
+			margin 1em auto
 	&--item
 		background #fff
 		text-align center
 		padding .8rem
+		+media(768px)
+			padding 2.5em
+		button
+			+media(1200px)
+				min-width 100%
 		h4
-			font-size 1.15rem
+			font-size 19px
 			font-family "RalewayBold"
 			
 .after-partners
@@ -94,16 +131,23 @@
 		display flex
 		justify-content space-between
 		align-items center
+		+media(768px)
+			flex-wrap wrap
 	article
 		display flex
 		flex-direction column
 		justify-content center
 		align-items center
+		+media(768px)
+			width 80%
+			margin 1em auto
 	img
 		height 5rem
 		border-radius 50%
 		width auto !important
-
+		+media(768px)
+			height auto
+			width 60%
 .command
 	.owl-carousel 
 		.owl-dot
@@ -132,3 +176,5 @@
 	img
 		width calc(100% / 6 - 2rem)
 		margin 1rem
+		+media(768px)
+			width calc(100% / 3 - 2rem)

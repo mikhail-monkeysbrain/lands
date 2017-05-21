@@ -4,6 +4,11 @@
   padding-top: 10rem;
   padding-bottom: 2rem;
 }
+@media screen and (max-width: 960px) {
+  #index .size__semi {
+    width: 100% !important;
+  }
+}
 #index .wrapper {
   position: relative;
 }
@@ -19,6 +24,11 @@
   top: -10rem;
   max-height: 30rem;
 }
+@media screen and (max-width: 960px) {
+  #index img {
+    display: none;
+  }
+}
 .increase__sales {
   padding-top: 0;
 }
@@ -30,7 +40,6 @@
 .increase__sales__header .h {
   font-family: "RalewayBold";
   font-size: 30px;
-  font-size: 1.55rem;
 }
 .increase__sales__header .h3 {
   color: #f00;
@@ -39,10 +48,18 @@
   background: url("../img/index__rotate.jpg") center no-repeat;
   background-size: 100%;
 }
+@media screen and (max-width: 1200px) {
+  .increase__sales__rotate {
+    background: #fff;
+  }
+}
 .wrapper__small {
   width: 95%;
   max-width: 880px;
   margin: 0 auto;
+}
+.sales img.icon {
+  width: auto !important;
 }
 .sales:first-child .icon {
   margin: 0 auto;
@@ -50,6 +67,11 @@
 .sales img {
   width: auto !important;
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .sales img {
+    width: 45% !important;
+  }
 }
 .sales article {
   display: -webkit-flex;
@@ -71,7 +93,6 @@
   color: #f00;
   font-family: 'RalewaySemiBold';
   font-size: 25px;
-  font-size: 1.3rem;
 }
 .landing {
   padding: 0;
@@ -80,6 +101,21 @@
   margin-top: 2rem;
   background: url("../img/landingbg.jpg") center no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 1300px) {
+  .landing__wrapper {
+    margin-bottom: 3em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .landing__wrapper {
+    margin-bottom: 7em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing__wrapper {
+    margin-bottom: 0;
+  }
 }
 .landing .wrapper {
   display: -webkit-flex;
@@ -91,9 +127,16 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+}
+@media screen and (max-width: 1024px) {
+  .landing .wrapper {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
 }
 .landing--masonry {
   width: auto;
@@ -102,6 +145,17 @@
           flex-grow: 1;
   position: relative;
   cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .landing--masonry {
+    width: 30%;
+    -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 1;
+        -ms-flex-negative: 1;
+            flex-shrink: 1;
+  }
 }
 .landing--masonry:nth-child(2n) .landing--masonry__overlay {
   top: 50%;
@@ -112,6 +166,7 @@
 .landing--masonry__overlay {
   position: absolute;
   width: 100%;
+  font-size: 16px;
   height: 50%;
   left: 0;
   top: 0;
@@ -131,15 +186,35 @@
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .landing--masonry {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 480px) {
+  .landing--masonry {
+    width: 100%;
+  }
+}
 .rates {
   background: url("../img/rotate-2.jpg") center no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .rates {
+    background: #fff;
+  }
 }
 .rates h2 {
   color: #f00;
   font-family: 'RalewayBold';
   text-align: center;
   margin-top: -5em;
+}
+@media screen and (max-width: 768px) {
+  .rates h2 {
+    margin: 0;
+  }
 }
 .rates h4,
 .rates p {
@@ -151,6 +226,11 @@
 }
 .rates .service--item {
   padding: 0.8rem 2rem;
+}
+@media screen and (max-width: 768px) {
+  .rates .service img {
+    display: none;
+  }
 }
 .rates .service img:nth-child(1) {
   position: absolute;
@@ -170,20 +250,36 @@
   position: absolute;
   width: auto !important;
   left: 70%;
-  top: 32rem;
+  bottom: 250px;
   z-index: 0;
 }
 .rates .service img:nth-child(4) {
   position: absolute;
   width: auto !important;
-  left: 0%;
-  top: 45rem;
+  left: -5%;
+  bottom: 0;
   z-index: 3;
 }
 .rates .service article {
   margin: 1em 0;
   position: relative;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .rates .service article {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .form .right {
+    display: none;
+  }
+  .form .left {
+    width: 100%;
+  }
+  .form .left input {
+    font-size: 18px;
+  }
 }
 .form__transparent {
   background: transparent;

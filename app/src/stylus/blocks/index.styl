@@ -1,8 +1,14 @@
+media(maxWidth)
+    @media screen and (max-width: maxWidth)
+        {block}
 #index
 	background url('../img/top__index.jpg') center no-repeat
 	background-size cover
 	padding-top 10rem
 	padding-bottom 2rem
+	.size__semi
+		+media(960px)
+			width 100% !important
 	.wrapper
 		position relative
 	a
@@ -15,7 +21,8 @@
 		right 0
 		top -10rem
 		max-height 30rem
-
+		+media(960px)
+			display none
 .increase__sales
 	padding-top 0
 	&__header
@@ -25,29 +32,36 @@
 		.h
 			font-family "RalewayBold"
 			font-size 30px
-			font-size 1.55rem
 		.h3
 			color red
 	&__rotate
 		background url('../img/index__rotate.jpg') center no-repeat
 		background-size 100%
+		+media(1200px)
+			background #fff
 .wrapper
 	&__small
 		width 95%
 		max-width 880px
 		margin 0 auto
 .sales
+	img
+		&.icon
+			width auto !important
 	&:first-child
 		.icon
 			margin 0 auto
 	img
 		width auto !important
 		display block
+		+media(768px)
+			width 45% !important
 	article
 		display flex
 		justify-content space-between
 		align-items center
 		margin 1em 0
+			
 .sales--text
 	margin-left 1rem
 	&__header
@@ -55,7 +69,6 @@
 		color red
 		font-family 'RalewaySemiBold'
 		font-size 25px
-		font-size 1.3rem
 
 .landing
 	padding 0
@@ -63,16 +76,32 @@
 		margin-top 2rem
 		background url('../img/landingbg.jpg') center no-repeat
 		background-size cover
+		+media(1300px)
+			margin-bottom 3em
+		+media(960px)
+			margin-bottom 7em
+		+media(768px)
+			margin-bottom 0
 	.wrapper
 		display flex
 		justify-content space-between
 		align-items center
-		flex-wrap wrap
+		+media(1024px)
+			justify-content center
+			flex-wrap wrap
 	&--masonry
 		width auto
 		flex-grow 1
 		position relative
 		cursor pointer
+		+media(1024px)
+			width 30%
+			flex-grow 0
+			flex-shrink 1
+			+media(768px)
+				width 50%
+			+media(480px)
+				width 100%
 		&:nth-child(2n)
 			.landing--masonry__overlay
 				top 50%
@@ -82,6 +111,7 @@
 		&__overlay
 			position absolute
 			width 100%
+			font-size 16px
 			height 50%
 			left 0
 			top 0
@@ -96,11 +126,15 @@
 .rates
 	background url('../img/rotate-2.jpg') center no-repeat
 	background-size cover
+	+media(768px)
+		background #fff
 	h2
 		color red
 		font-family 'RalewayBold'
 		text-align center
 		margin-top -5em
+		+media(768px)
+			margin 0
 	h4,
 	p	
 		text-align left
@@ -110,6 +144,8 @@
 		&--item
 			padding .8rem 2rem	
 		img
+			+media(768px)
+				display none
 			&:nth-child(1)
 				position absolute
 				width auto !important
@@ -126,19 +162,28 @@
 				position absolute
 				width auto !important
 				left 70%
-				top 32rem
+				bottom 250px
 				z-index 0
 			&:nth-child(4)
 				position absolute
 				width auto !important
-				left 0%
-				top 45rem
+				left -5%
+				bottom 0
 				z-index 3
 		article
 			margin 1em 0
 			position relative
 			z-index 1
+			+media(768px)
+				width 100% !important
 .form
+	+media(960px)
+		.right
+			display none
+		.left
+			width 100%
+			input
+				font-size 18px
 	&__transparent
 		background transparent
 	p

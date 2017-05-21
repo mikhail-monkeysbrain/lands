@@ -17,7 +17,6 @@
   width: 25%;
   color: #000;
   font-family: 'RalewayRegular';
-  font-size: 1rem;
 }
 @media screen and (max-width: 800px) {
   .srv nav a {
@@ -30,7 +29,7 @@
 .srv .article__header {
   font-family: 'RalewayBold';
   text-transform: uppercase;
-  font-size: 1.05rem;
+  font-size: 18px;
 }
 .srv h2 {
   color: #000;
@@ -40,9 +39,6 @@
   text-align: center;
   color: #f00;
   font-family: 'RalewayBold';
-}
-h5 {
-  font-size: 1.15rem;
 }
 .wrapper__medium {
   width: 95%;
